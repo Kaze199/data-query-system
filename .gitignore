@@ -1,0 +1,25 @@
+# 内嵌 Python 运行时
+Python38/
+
+# PyInstaller 构建产物
+build/
+dist/
+
+# 打包好的可执行文件与安装包
+*.exe
+*.dll
+
+# 免安装版发布目录
+数据查询系统-免安装版/
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+
+# 本地工具目录
+.agents/
+
+# 数据库文件（若项目目录中出现则不提交）
+*.mdb
+*.accdb
+*.ldb
